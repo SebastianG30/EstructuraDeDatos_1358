@@ -6,6 +6,7 @@
 package listasadt1358;
 
 import ico.fes.modelo.Empleado;
+import ico.fes.unam.edd1358.DoubleLinkedList;
 import ico.fes.unam.edd1358.LinkedListADT;
 
 /**
@@ -35,6 +36,17 @@ public class ListasADT1358 {
         lsl2.append(new Empleado(1, "Marco", "Garcia", "Perez", 1850.5f, 2015, 4));
         
         lsl2.transversal();
+        
+        DoubleLinkedList ldl = new DoubleLinkedList();
+        ldl.append(new Integer(10));
+        ldl.append(new Integer(20));
+        ldl.transversal();
+        ldl.append(new Integer(30));
+        ldl.transversal();
+        ldl.append(new Integer(40));
+        ldl.transversal();
+        
+        
     }
     
 }
